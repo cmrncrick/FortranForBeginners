@@ -1,0 +1,3 @@
+to compile -> gfortran [filename].f90 -o [desired exe name]
+
+to run -> ./[exe name].exe
