@@ -10,6 +10,7 @@ import (
 func main() {
     var choice string
 
+    // Create a buffered reader that reads from standard input
     reader := bufio.NewReader(os.Stdin)
 
     for {
