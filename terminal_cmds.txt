@@ -3,3 +3,12 @@
 to compile -> gfortran [filename].f90 -o [desired exe name]
 
 to run -> ./[exe name].exe
+
+
+** modules **
+module name shapes_m.f90
+script name shapes.f90
+
+gfortran -c shapes_m.f90 -o shapes_m.o
+gfortran -c shapes.f90 -o shapes.o
+gfortran shapes_m.o shapes.o -o shapes
