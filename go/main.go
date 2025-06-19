@@ -37,18 +37,18 @@ func main() {
         fmt.Println("You chose:", choice)
 
         // Compare user's choice 
-        switch {
+        switch  choice{
 
-            case choice == "a":
+            case "a":
                 fmt.Println("A")
 
-            case choice == "b":
+            case "b":
                 fmt.Println("B")
 
-            case choice == "c":
+            case "c":
                 fmt.Println("C")
 
-            case choice == "q":
+            case "q":
                 fmt.Println("Exiting")
                 os.Exit(0)
 
